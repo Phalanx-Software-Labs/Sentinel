@@ -1,0 +1,3 @@
+# Sentinel — Phase 1
+# Python 3.x standard library only. No external dependencies.
+# Required: tkinter (usually bundled with Python on Windows)

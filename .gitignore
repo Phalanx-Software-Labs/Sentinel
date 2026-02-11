@@ -1,0 +1,10 @@
+# Build artifacts
+dist/
+build/
+Output/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo

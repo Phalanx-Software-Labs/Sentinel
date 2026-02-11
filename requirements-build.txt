@@ -1,0 +1,3 @@
+# Sentinel — Build dependencies (Phase 5)
+# Install with: pip install -r requirements-build.txt
+pyinstaller>=6.0

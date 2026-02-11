@@ -1,0 +1,64 @@
+================================================================================
+SENTINEL — PHASE 3: QUALITY & SCHEDULE RECOMMENDATION
+================================================================================
+Goal: Add schedule recommendation based on card type/size, quality hints,
+and support for lower-quality and smaller cards.
+================================================================================
+
+
+--------------------------------------------------------------------------------
+1. IN SCOPE
+--------------------------------------------------------------------------------
+- Schedule recommendation:
+  - Intervals: 7 days (low-end/unknown), 14 days (balanced), 21–30 days
+    (high-end). Configurable by user.
+  - Optional prompt on first run / new card: "Recommended schedule: every X days
+    based on your card size and type."
+- Quality hint:
+  - Optional device/vendor or capacity-based hint (e.g. high-capacity class 10
+    vs. low-end unknown).
+  - Used to suggest default interval; user can override.
+- Support for lower-quality and smaller cards:
+  - Reduce quick check size (e.g. 5% instead of 10%) for small cards.
+  - Warn if card is very small (< e.g. 4 GB) or very full (> e.g. 95%).
+  - Adjust safety margin and file count for marginal cards.
+- UI enhancements:
+  - Schedule recommendation display.
+  - Quality/size warnings when applicable.
+  - Last check timestamp persisted and displayed.
+
+
+--------------------------------------------------------------------------------
+2. OUT OF SCOPE FOR PHASE 3
+--------------------------------------------------------------------------------
+- Mimic or host integration.
+- Packaging as .exe (unless earlier decision to include).
+- Support for cards below minimum viable specs (e.g. < 1 GB).
+
+
+--------------------------------------------------------------------------------
+3. DELIVERABLES
+--------------------------------------------------------------------------------
+- Logic for schedule recommendation based on capacity and optional quality hint.
+- Logic for small/full card handling (reduced size, warnings).
+- UI: recommendation text, warnings, last check display.
+- Config: store last check time (and optional last sweep time if not on card).
+
+
+--------------------------------------------------------------------------------
+4. KEY TECHNICAL NOTES
+--------------------------------------------------------------------------------
+- Lifespan impact (approx, 1 year): Quick check 1×/week + full sweep at
+  interval. Low-end card ~0.6–1.9%; high-end ~0.06–0.2%. Trade-off acceptable.
+
+
+--------------------------------------------------------------------------------
+5. ESTIMATE
+--------------------------------------------------------------------------------
+- Implementation: ~2–3 days.
+- Testing: verify behavior on small card and nearly full card.
+
+
+================================================================================
+END OF DOCUMENT — PHASE 3
+================================================================================

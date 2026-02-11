@@ -1,0 +1,59 @@
+================================================================================
+SENTINEL — PHASE 4: MIMIC (HOST) INTEGRATION
+================================================================================
+Goal: Integrate Sentinel with Mimic (or another host application) so users
+can run checks from within the host and optionally get on-launch prompts.
+================================================================================
+
+
+--------------------------------------------------------------------------------
+1. IN SCOPE
+--------------------------------------------------------------------------------
+- Host integration (Mimic as primary example):
+  - Menu item: "Run Sentinel check" or "Check SD card health" from host menu.
+  - Optional on-launch check: when host launches, if SD/card detected and
+    X days since last check, prompt: "Run Sentinel check now?"
+  - "Sentinel standing vigil" banner or indicator when integrated.
+- API or interface:
+  - Sentinel exposes callable interface (e.g. run_quick_check(drive)) so host
+    can invoke without separate process, or via subprocess if preferred.
+- Shared config:
+  - Sentinel and host can share last-check timestamp and drive selection
+    where appropriate.
+- Standalone mode preserved:
+  - Sentinel remains runnable standalone; integration is additive.
+
+
+--------------------------------------------------------------------------------
+2. OUT OF SCOPE FOR PHASE 4
+--------------------------------------------------------------------------------
+- Full host feature set (Mimic scope handled by Mimic project).
+- Packaging as .exe (unless included in Phase 5 or earlier).
+
+
+--------------------------------------------------------------------------------
+3. DELIVERABLES
+--------------------------------------------------------------------------------
+- Integration module or API for host to call Sentinel.
+- Host-side changes (menu, on-launch prompt, banner) — coordinated with
+  Mimic/host project.
+- Documentation for host integration.
+
+
+--------------------------------------------------------------------------------
+4. KEY TECHNICAL NOTES
+--------------------------------------------------------------------------------
+- Host integrates when Sentinel exists; Sentinel does not require host.
+- Consider: subprocess vs. importable module vs. IPC. Depends on host stack.
+
+
+--------------------------------------------------------------------------------
+5. ESTIMATE
+--------------------------------------------------------------------------------
+- Implementation: ~2–3 days (Sentinel side) + coordination with host project.
+- Testing: verify menu launch, on-launch prompt, standalone still works.
+
+
+================================================================================
+END OF DOCUMENT — PHASE 4
+================================================================================

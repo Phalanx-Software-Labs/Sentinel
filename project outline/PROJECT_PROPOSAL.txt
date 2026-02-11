@@ -1,0 +1,120 @@
+================================================================================
+SENTINEL — PROJECT PROPOSAL
+Phalanx Software Innovations
+================================================================================
+Confidential — For Shareholder Review
+================================================================================
+
+
+--------------------------------------------------------------------------------
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Sentinel is a software product designed to provide early warning of SD card
+failure. It monitors card health through non-destructive integrity checks and
+alerts users before data loss occurs. The product is positioned as a standalone
+offering that can also be bundled with existing products such as Mimic,
+providing additional value to our customers and a new revenue stream.
+
+
+--------------------------------------------------------------------------------
+THE PROBLEM
+--------------------------------------------------------------------------------
+SD cards are widely used for cameras, handheld gaming, embedded systems, and
+data storage. They fail without warning, and when they do, data is often lost
+permanently. Users have no simple way to know if their card is degrading until it is too late. Sentinel addresses this gap by proactively testing card
+integrity and warning users in time to back up and replace cards.
+
+
+--------------------------------------------------------------------------------
+THE SOLUTION
+--------------------------------------------------------------------------------
+Sentinel performs periodic integrity checks by writing temporary test data to
+the card, verifying it can be read back correctly, and then deleting it. No
+permanent data is stored on the card. The product provides:
+
+  - Quick checks: Fast, on-demand tests of a portion of the card (recommended
+    weekly).
+  - Full sweeps: Comprehensive tests of all files and free space, run on a
+    configurable schedule (e.g., every 7–30 days).
+  - Honest confidence reporting: Clear "low end" estimates of how much of the card was tested positive for health and strong reminders to keep backups.
+
+The tagline "Sentinel, ready and standing vigil" captures the product's role: a reliable watchman that protects users from unexpected card failure.
+
+
+--------------------------------------------------------------------------------
+MARKET OPPORTUNITY
+--------------------------------------------------------------------------------
+  - Broad user base: Anyone who relies on SD cards—photographers, gamers,
+    professionals, hobbyists—benefits from early warning.
+  - Differentiation: Few tools focus specifically on proactive SD card health
+    monitoring with minimal impact on the card.
+  - Bundle potential: Integration with Mimic and other products focused on sd card use creates value-added packages and strengthens the overall product ecosystem.
+
+
+--------------------------------------------------------------------------------
+PRODUCT ROADMAP
+--------------------------------------------------------------------------------
+
+  Phase 1 — First Working Version (Target: ~2 days development)
+    - Standalone application with drive selection and one-click quick check.
+    - Validates core concept with minimal scope.
+    - No installer; run from source for rapid validation.
+
+  Phase 2 — Full Sweep & Scheduled Integrity
+    - Full card verification (all files and free space).
+    - Manifest-based corruption detection.
+    - Timestamp on card; runs only when schedule allows.
+
+  Phase 3 — Quality & Schedule Recommendation
+    - Recommendations based on card type and size.
+    - Support for smaller and lower-quality cards.
+    - Enhanced user guidance.
+
+  Phase 4 — Host Integration
+    - Integration with Mimic and other host applications.
+    - Menu integration, optional on-launch prompts.
+    - "Sentinel standing vigil" presence in partner products.
+
+  Phase 5 — Packaging & Portability
+    - Standalone Windows installer.
+    - Optional lightweight port for handheld/Linux environments.
+
+
+--------------------------------------------------------------------------------
+RISK MITIGATION
+--------------------------------------------------------------------------------
+  - Conservative claims: Sentinel explicitly states that it does not guarantee against failure and always recommends backups. This reduces liability and sets correct expectations.
+  - No permanent footprint: All test data is deleted after verification,
+    minimizing wear and user concerns.
+  - Phased approach: Phase 1 validates the concept with minimal investment
+    before committing to full development.
+
+
+--------------------------------------------------------------------------------
+RESOURCE ESTIMATE (PHASE 1)
+--------------------------------------------------------------------------------
+  - Development: Approximately 2 days focused work to reach code-complete.
+  - Testing: Manual validation on real drives.
+  - No packaging or installer in Phase 1; script-based execution.
+
+
+--------------------------------------------------------------------------------
+RECOMMENDATION
+--------------------------------------------------------------------------------
+We recommend approval to proceed with Phase 1 of Sentinel. The first version
+requires limited investment and will provide a working proof-of-concept to
+validate customer interest and technical feasibility. Success in Phase 1
+supports a phased rollout through Phases 2–5, with each phase adding value
+and optional integration with existing products.
+
+
+--------------------------------------------------------------------------------
+CONTACT
+--------------------------------------------------------------------------------
+For questions regarding this proposal, please contact the project team at
+Phalanx Software Innovations.
+
+
+================================================================================
+END OF DOCUMENT — SENTINEL PROJECT PROPOSAL
+================================================================================
