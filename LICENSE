@@ -1,16 +1,76 @@
 Sentinel — Phalanx Software Labs
-
 Copyright (c) 2026 Phalanx Software Labs. All rights reserved.
 
-Use of this repository, the Sentinel source code, and the Sentinel software
-(isolated or integrated) is governed by the End-User License Agreement (EULA)
-and Terms of Use.
+This license and the terms below govern use of this repository, the Sentinel
+source code, and the Sentinel software (whether used standalone or integrated).
+By viewing, using, copying, or distributing the source code or the software,
+you agree to these terms.
 
-The full EULA and Terms of Use are in this repository at:
-  sentinel/eula.py
+================================================================================
+SENTINEL END-USER LICENSE AGREEMENT (EULA) & TERMS OF USE
+================================================================================
+Version 1.0
+Last Updated: February 2026
 
-They are also presented in the application at every launch. By viewing, using,
-copying, or distributing this source code or the Sentinel software, you agree
-to those terms, including (without limitation) no redistribution or sale, no
-reverse engineering, limitations of warranty and liability, and jurisdiction
-in Schenectady County, New York.
+I. SUMMARY OF YOUR AGREEMENT (TL;DR)
+
+HARDWARE STRESS TEST: Sentinel tests your SD card by writing and reading data. This process involves physical wear on the hardware.
+
+THE "LAST STRAW" RISK: If your card is already failing, running this test may cause it to fail immediately. You accept this risk.
+
+NOT A REPAIR TOOL: Sentinel is an early warning system. It does not "fix" or "heal" bad cards.
+
+EARLY RELEASE: This is beta software. It may contain bugs.
+
+LIABILITY CAP: The developer's maximum liability to you is $1.00 USD.
+
+LEGAL: All disputes are handled in Schenectady County, New York.
+
+II. END-USER LICENSE AGREEMENT (EULA)
+
+1. Grant of License
+Phalanx Software Labs ("Licensor") grants a personal, non-exclusive, and limited license to use Sentinel ("Software") solely for personal, non-commercial hardware testing.
+
+2. Acceptance of Terms
+By clicking "I Agree" or by using the Software, you acknowledge that you have read and agree to these terms. You are required to manifest assent to these terms upon every launch.
+
+3. Restrictions
+No Redistribution: You may not redistribute or sell the Software.
+No Reverse Engineering: You agree not to decompile or attempt to derive the source code.
+
+III. TERMS OF USE & USER CONDUCT
+
+4. User Responsibility for Data
+Sentinel writes and deletes data during its "Quick" and "In-Depth" scans. You are solely responsible for backing up any existing data on the SD card before running a scan.
+
+5. Privacy
+Sentinel operates locally. We do not track your hardware IDs, scan results, or personal data.
+
+IV. HARDWARE WARNINGS, WARRANTIES, AND LIABILITY
+
+6. EXPRESS ASSUMPTION OF HARDWARE RISK (CRITICAL)
+Stress Testing: You acknowledge that Sentinel performs "Write/Read" operations that consume the finite write cycles of flash memory.
+Acceleration of Failure: You acknowledge that if a storage device is already degraded or failing, the stress of a Sentinel scan may accelerate its final failure.
+No Recovery: Sentinel is a diagnostic tool, not a data recovery tool. It cannot recover lost data or repair physical sectors.
+Assumption of Risk: By clicking "I Agree," you voluntarily assume all risks of hardware failure, data loss, or "bricked" SD cards resulting from the testing process.
+
+7. ACCURACY OF ANALYSIS
+While Sentinel is designed to provide an "Early Warning," no software can guarantee 100% accuracy in predicting hardware failure. A "Pass" result does not guarantee that a card will not fail in the future, and an 80% confidence level is an estimate, not a legal warranty.
+
+8. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS." THE DEVELOPER DISCLAIMS ALL WARRANTIES, INCLUDING MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE DEVELOPER DOES NOT GUARANTEE THAT THE SCAN WILL IDENTIFY EVERY POSSIBLE HARDWARE DEFECT.
+
+9. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE DEVELOPER'S TOTAL LIABILITY EXCEED $1.00 USD. THE DEVELOPER SHALL NOT BE LIABLE FOR THE COST OF REPLACING FAILED SD CARDS OR FOR THE VALUE OF DATA LOST DURING A SCAN.
+
+V. GLOBAL PROVISIONS & JURISDICTION
+
+10. International & Statutory Rights
+Australia: This Software comes with guarantees that cannot be excluded under the Australian Consumer Law.
+EU/UK: Nothing in this Agreement limits mandatory consumer rights that cannot be waived by contract.
+Global: In jurisdictions where a $1.00 cap is prohibited, liability is limited to the minimum amount required by local law.
+
+11. Governing Law & Venue
+This Agreement is governed by the laws of the State of New York. Any legal action must be brought exclusively in the state or federal courts located in Schenectady County, New York.
+
+BY CLICKING "I AGREE," YOU ACKNOWLEDGE THAT YOU UNDERSTAND THE RISKS OF STRESS-TESTING HARDWARE AND ACCEPT ALL RESPONSIBILITY FOR THE PHYSICAL HEALTH OF YOUR STORAGE MEDIA.
