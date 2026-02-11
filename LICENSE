@@ -1,17 +1,16 @@
-Proprietary License — Phalanx Software Labs
+Sentinel — Phalanx Software Labs
 
 Copyright (c) 2026 Phalanx Software Labs. All rights reserved.
 
-This source code is made available for reference and inspection only. You may not:
+Use of this repository, the Sentinel source code, and the Sentinel software
+(isolated or integrated) is governed by the End-User License Agreement (EULA)
+and Terms of Use.
 
-  - redistribute, sublicense, or sell this software or its source code;
-  - use this source code (or any derivative work) in another product or service
-    without explicit written permission from Phalanx Software Labs;
-  - remove or alter this license or any copyright notice.
+The full EULA and Terms of Use are in this repository at:
+  sentinel/eula.py
 
-Use of the compiled Sentinel software is governed by the End-User License
-Agreement (EULA) and Terms of Use presented when you run the application.
-By using the software you agree to those terms, including limitations of
-warranty and liability.
-
-For permissions or questions, contact Phalanx Software Labs.
+They are also presented in the application at every launch. By viewing, using,
+copying, or distributing this source code or the Sentinel software, you agree
+to those terms, including (without limitation) no redistribution or sale, no
+reverse engineering, limitations of warranty and liability, and jurisdiction
+in Schenectady County, New York.
