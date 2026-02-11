@@ -8,3 +8,6 @@ Output/
 __pycache__/
 *.py[cod]
 *.pyo
+
+# Internal planning (not for public repo)
+project outline/
