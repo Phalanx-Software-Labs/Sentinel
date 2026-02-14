@@ -25,6 +25,9 @@ No Python or extra runtimes required. You will be asked to accept the End-User L
 
 ## Accuracy & card wear (what to expect)
 
+**Important — stress test and failing drives:**  
+Sentinel is a hardware stress test. It writes and reads data on your card, which involves physical wear. **If your card is already failing or degraded, running a scan may accelerate its failure or cause it to fail immediately** ("last straw" risk). Sentinel does not repair or heal bad cards. **Always back up your data before running any scan.**
+
 **How much can we trust the result?**
 - **Quick check** — We only test part of the card. Confidence is **~40%**: a "Pass" means the area we tested looked good, not that the whole card is guaranteed healthy. Use it for regular spot-checks; run a full sweep when you want higher certainty.
 - **Full sweep** — We verify every file and test free space. Confidence is **~85%**: much better, but no software can promise 100% prediction of future failure. A "Pass" is a strong sign; keep backups either way.
